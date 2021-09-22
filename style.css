@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-size: 2.625rem;
+    font-weight: bold;
+    color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+a{
+  color: #11999E;
+}
+
+
+p{
+    line-height: 2;
+}
+
+.Niraj{
+  height: 200px;
+}
+
+.Pictures{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Pictures1{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.welcome{
+  width:50%;
+  margin: auto;
+}
+
+.skill-row{
+  text-align: left;
+  width:50%;
+  margin: 100px auto;
+}
+
+.contact{
+  width:50%;
+  margin: auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container{
+  padding: 50px 0 20px;
+  background-color: #66BFBF;
+}
+
+.middle-container{
+  margin: 100px 0 80px;
+}
+
+.footer-link{
+  color:#11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+
+hr{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 7px;
+  height: 0px;
+  width: 5%;
+}
+
+.BUTTON_FTZ {
+  margin: 50px auto;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: 200;
+   padding: 10px;
+   background-color: #66BFBF;
+   border: solid #66FBFB 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_FTZ:hover {
+   border: solid #11999E 1px;
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+   background-image: -moz-linear-gradient(top, #11999E, #11999E);
+   background-image: -ms-linear-gradient(top, #11999E, #11999E);
+   background-image: -o-linear-gradient(top, #11999E, #11999E);
+   background-image: -webkit-gradient(to bottom, #11999E, #11999E);
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   text-decoration: none;
+}
